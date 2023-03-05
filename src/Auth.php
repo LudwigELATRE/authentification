@@ -17,6 +17,7 @@ class Auth
 
     public function user(): ?User
     {
+        return null;
     }
 
     public function login(string $username, string $password): ?User
